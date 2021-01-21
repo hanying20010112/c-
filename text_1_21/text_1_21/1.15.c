@@ -1,20 +1,23 @@
 #define _CRT_SECURE_NO_WARNINGS   1
 #include<stdio.h>
-//写一个比较两个数大小的函数
-int Max(int x, int y)
-{
-	if (x > y)
-	  return x;
-	return y;
-}
-int main()
-{
-	int a = 8;
-	int b = 10;
-	printf("%d\n",Max(a,b));
-	return 0;
-}
-/ 计算三角形周长和面积
+
+//写一个函数求两个整数的较大值
+//int Max(int x, int y)
+//{
+//	if (x > y)
+//		return x;
+//	return y;
+//}
+//int main()
+//{
+//	int a = 8;
+//	int b = 10;
+//	printf("%d\n", Max(a, b));
+//	return 0;
+//
+
+
+//计算三角形周长和面积
 //#include<math.h>
 //int main()
 //{
